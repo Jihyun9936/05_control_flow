@@ -27,5 +27,7 @@ int main(){
 		ab_val=-input;
 	else
 		ab_val=input;
-	printf("The absolute value is %d", ab_val);
+	printf("|x| = %d\n", ab_val);
 }
+
+
