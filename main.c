@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 }*/
 
-/*Lab02*/
+/*Lab02
 int main(){
 	int input, ab_val;
 	
@@ -28,6 +28,19 @@ int main(){
 	else
 		ab_val=input;
 	printf("|x| = %d\n", ab_val);
+}*/
+
+/*Lab03*/
+int main(){
+	int input;
+	
+	printf("input a integer : ");
+	scanf("%d", &input);
+	
+	if(input>0)
+		printf("It's a positive number.");
+	else if(input<0)
+		printf("It's a negative Number.");
+	else 
+		printf("Zero.");
 }
-
-
