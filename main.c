@@ -11,8 +11,8 @@ int main(int argc, char *argv[]) {
 	printf("input the number : ");
 	scanf("%d", &input);
 	if (input>0)
-		printf("It's a integer.");
+		printf("It's a positive number.");
 	else 
-		printf("It's not a integer");
+		printf("It's not a positive number.");
 	return 0;
 }
