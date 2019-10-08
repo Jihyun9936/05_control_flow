@@ -30,7 +30,7 @@ int main(){
 	printf("|x| = %d\n", ab_val);
 }*/
 
-/*Lab03*/
+/*Lab03
 int main(){
 	int input;
 	
@@ -43,4 +43,16 @@ int main(){
 		printf("It's a negative Number.");
 	else 
 		printf("Zero.");
+}*/
+
+/*Lab04*/
+int main(){ 
+	int i=0, meter;
+
+	while(i<3){
+		meter=i*1609;
+		printf("%dm = %dmile\n", i, meter);
+		i++;
+	}
+	return 0;
 }
