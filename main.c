@@ -45,7 +45,7 @@ int main(){
 		printf("Zero.");
 }*/
 
-/*Lab04*/
+/*Lab04
 int main(){ 
 	int i=0, meter;
 
@@ -53,6 +53,15 @@ int main(){
 		meter=i*1609;
 		printf("%dm = %dmile\n", i, meter);
 		i++;
+	}
+	return 0;
+}*/
+
+/*Lab05*/
+int main(){
+	int i;
+	for(i=0; i<10; i++){
+		printf("Hello World!\n");
 	}
 	return 0;
 }
