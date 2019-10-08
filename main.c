@@ -66,7 +66,7 @@ int main(){
 	return 0;
 }*/
 
-/*Lab06*/
+/*Lab06
 int main(){
 	int num=0; char c;
 	
@@ -79,4 +79,27 @@ int main(){
 			;
 	}
 	printf("the number of digits is %d\n", num);
+	return 0;
+}*/
+
+/*Lab07*/
+int main(){
+	int answer=59, num, trial;
+	
+	do{
+		printf("Guess a number : ");
+		scanf("%d", &num);
+		if (num<answer){
+			printf("low!\n");
+			trial++;
+		}
+		else if (num>answer){
+			printf("high!\n");
+			trial++;
+		}
+	}
+	while (answer!=num);
+	trial++;
+	printf("Congratualtion! trials : %d\n", trial);
+	return 0;
 }
