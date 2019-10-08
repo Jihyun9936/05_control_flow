@@ -57,11 +57,26 @@ int main(){
 	return 0;
 }*/
 
-/*Lab05*/
+/*Lab05
 int main(){
 	int i;
 	for(i=0; i<10; i++){
 		printf("Hello World!\n");
 	}
 	return 0;
+}*/
+
+/*Lab06*/
+int main(){
+	int num=0; char c;
+	
+	printf("input a string : ");
+	
+	while((c=getchar())!='\n'){
+		if(c>='0' && c<='9')
+			num++;
+		else
+			;
+	}
+	printf("the number of digits is %d\n", num);
 }
